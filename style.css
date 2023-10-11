@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+nav {
+  margin: 4rem 7.2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 4.2rem;
+  align-items: center;
+  position: absolute;
+}
+
+nav a {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 90%;
+  text-decoration: none;
+}
+
+nav a:focus {
+  font-weight: 700;
+}
+
+#home {
+  background-image: url(/assets/home-bg.png);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#home section {
+  display: flex;
+  flex-direction: column;
+  margin: auto auto;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#home h1 {
+  color: #e1e1e6;
+  font-family: "Roboto", sans-serif;
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 125%;
+  margin-bottom: 2.4rem;
+}
+
+#home button {
+  padding: 1.2rem 3.2rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+  border-radius: 0.5rem;
+  border: 0.2rem solid #fff;
+  color: #fff;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 170%;
+  background-color: #ffffff00;
+  width: max-content;
+  cursor: pointer;
+  transition: 100ms ease-in-out;
+}
+
+#home button:hover {
+  border-radius: 0.5rem;
+  border: 0.2rem solid #fff;
+  background: #fff;
+  color: #02799d;
+}
+
+#universo {
+  background-image: url(/assets/universo-bg.png);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#universo section,
+#exploracao section {
+  display: flex;
+  flex-direction: column;
+  margin: auto auto;
+  height: 100vh;
+  padding: 18.5rem 0 0 10.2rem;
+}
+
+#universo h1,
+#exploracao h1 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 125%;
+  margin-bottom: 1.6rem;
+}
+
+#universo p,
+#exploracao p {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 160%;
+  max-width: 64.8rem;
+}
+
+#exploracao {
+  background-image: url(/assets/exploracao-bg.png);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
